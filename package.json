@@ -26,10 +26,9 @@
   "name": "project_template_react",
   "private": true,
   "scripts": {
-    "build": "bash ./scripts/build.sh",
+    "build": "vite build",
     "dev": "bash ./scripts/dev.sh",
     "lint": "eslint",
-    "preinstall": "npx only-allow pnpm",
     "start": "bash ./scripts/start.sh",
     "ts-check": "tsc -p tsconfig.json"
   },
